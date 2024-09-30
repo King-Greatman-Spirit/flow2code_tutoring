@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Program</title>
+</head>
+<body>
+    <h1 id="greeting"></h1>
+
+    <script>
+        // Prompt the user for their name
+        let userName = prompt("Please enter your name:");
+
+        // Store the greeting message in a variable
+        let greetingMessage = "Hello, " + userName + "! Welcome to our website.";
+
+        // Display the greeting message using an alert
+        alert(greetingMessage);
+
+        // Alternatively, display the greeting message on the webpage
+        document.getElementById("greeting").innerText = greetingMessage;
+    </script>
+</body>
+</html>
+

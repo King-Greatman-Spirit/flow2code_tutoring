@@ -1,0 +1,75 @@
+/* Apply box-sizing to include padding and border in the element's total width and height */
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif; /* Set font family for all elements */
+    font-weight: normal;  /* Set normal font weight for all elements */
+}
+
+body{
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    background: linear-gradient(to right, #00AAFF, #00FF6C); /* Set background gradient */
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, .75); /* Set background color with transparency */
+    justify-content: center; /* Center content horizontally */
+    width: 100%; /* Full width */
+    display: flex; /* Make the container a flexbox */
+    padding: 0 30px; /* Add padding */
+    font-size: calc(20px + 2vw); /* Responsive font size based on viewport width */
+    line-height: 60px; /* Set line height */
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+/*    margin: 0;*/
+}
+
+.calculator-grid {
+    display: grid; /* Use CSS grid layout */
+    justify-content: center; /* Center content horizontally */
+    align-content: center; /* Center content vertically */
+    min-height: 100vh; /* Set minimum height to fill the viewport height */
+    grid-template-columns: repeat(4, 100px); /* Define grid columns */
+    grid-template-rows: minmax(120px, auto) repeat(5, 70px); /* Define grid rows */
+    margin-top: 30px;
+
+}
+
+.calculator-grid > button {
+    cursor: pointer; /* Set cursor to pointer */
+    font-size: 2rem; /* Set font size */
+    border: 1px solid white; /* Add border */
+    outline: none; /* Remove outline */
+    background-color: rgba(255, 255, 255, .75); /* Set background color with transparency */
+}
+
+.calculator-grid > button:hover {
+    background-color: rgba(255, 255, 255, .9); /* Change background color on hover */
+} 
+
+.span-two {
+    grid-column: span 2; /* Span two grid columns */
+}  
+
+.output {
+    grid-column: 1 / -1; /* Span all columns */
+    background-color:  rgba(0, 0, 0, .75); /* Set background color with transparency */
+    display: flex; /* Use flexbox layout */
+    align-items: flex-end; /* Align items at the bottom */
+    justify-content: space-around; /* Distribute space around items */
+    flex-direction: column; /* Arrange items in a column */
+    padding: 10px; /* Add padding */
+    word-wrap: break-word; /* Allow word wrapping */
+    word-break: break-all; /* Break words */
+}
+
+.output .previous-operand {
+    color: rgba(255, 255, 255, .75); /* Set text color with transparency */
+    font-size: 1.5rem; /* Set font size */
+}
+
+.output .current-operand {
+    color: white; /* Set text color */
+    font-size: 2.5rem; /* Set font size */
+}

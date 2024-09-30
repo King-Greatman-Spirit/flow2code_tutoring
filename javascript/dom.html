@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM MANIPULATION EXAMPLE</title>
+</head>
+<body>
+  <p id="text">Original text</p>
+  <button onclick="changeText()">Change Text</button>
+
+  <script>
+    // Function to change the text of the paragraph 
+    function changeText() {
+      // Get the paragraph element of its ID 
+      let paragraph = document.getElementById("text");
+      // Change the text element of the paragraph 
+      paragraph.textcontent = "This has been changed";
+    }
+  </script>
+</body>
+</html>

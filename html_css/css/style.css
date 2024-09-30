@@ -1,0 +1,77 @@
+@import url("https://font.googleapis.com/css?family-Open+Sans&display-swap"); 
+
+* {
+  padding: 0; /* Removes default padding from all elements */
+  margin: 0; /* Removes default margin from all elements */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+body {
+  background-color: #f9fafb; /* Sets the background image */
+  font-family: 'open Sans', sans-serif; /* Sets the font family */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff; /* Sets the background color of the container to white */
+  border-radius: 5px; /* Rounds the corners of the container */
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.3); /* Adds a shadow to the container */
+  width: 500px; /* Sets the width of the container */
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.form {
+  padding: 20px 40px; /* Adds padding inside the form */
+}
+
+.form-control {
+  margin-bottom: 2px; /* Adds space below each form control */
+  padding: 20px; /* Adds padding below each form control */
+  position: relative; /* Sets the position of the form control to relative */
+}
+
+.form-control label {
+  color: #777; /* Sets the text color of the label */
+  display: block; /* Displays the label as a block element */
+  margin-bottom: 5px; /* Adds space below the label */
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0; /* Sets the border color and width of the input */
+  border-radius: 4px; /* Rounds the corners of the input */
+  display: block; /* Displays the input as a block element */
+  width: 100%; /* Sets the input to take the full width of the parent */
+  padding: 10px; /* Adds padding inside the input */
+  font-size: 14px; /* Sets the font size of the input text */
+}
+
+.form-control input:focus {
+  outline: 0; /* Removes the default outline when the input is focused */
+  border-color: #777; /* Changes the border color when the input is focused */
+}
+
+button {
+  background-color: #0082e6;
+  padding: 0 30px;
+  line-height: 50px;
+  cursor: pointer;
+  color: white;
+  display: block;
+  font-size: 16px;
+  width: 100%;
+}
+
+
+
+
+
+
+

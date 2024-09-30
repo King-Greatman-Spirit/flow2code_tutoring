@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Admission Form</title>
+
+	<!-- External CSS Styling -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="form-container">
+		<h2 style="text-transform: uppercase;">
+			school admission form
+		</h2>
+
+		<form>
+			<div class="form-group">
+				<label for="studentname">Student's Name</label>
+				<div class="split-input" style="margin-top: 10px;">
+					<input type="text" name="firstname" id="firstname" placeholder="Enter First Name">
+
+					<input type="text" name="lastname" id="lastname" placeholder="Enter Last Name">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="class">
+					Class you want to <br> apply for
+				</label>
+				<small> 
+					For example: Class 2023 - <br> 2024.
+				</small>
+
+				<input type="text" name="class" id="class" placeholder="Enter Class">
+			</div>
+
+			<div class="form-group">
+				<label for="dob">
+					Student''s DOB
+				</label>
+
+				<input type="date" name="dob" id="dob">
+			</div>
+
+			<div class="form-group">
+				<label for="parentname">Parent/Guardian <br> Name</label>
+				<div class="split-input" style="margin-top: 10px;">
+					<input type="text" name="firstname" id="firstname" placeholder="Enter First Name">
+
+					<input type="text" name="lastname" id="lastname" placeholder="Enter Last Name">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="address">
+					Current Address
+				</label>
+
+				<input type="text" name="address1" id="address1" placeholder="Enter Address Line 1">
+				<input type="text" name="address2" id="address2" placeholder="Enter Address Line 2">
+
+				<div class="form-group">
+					<div class="split-input" style="margin-top: 10px;">
+						<input type="text" name="city" id="city" placeholder="Enter Your City">
+
+						<input type="text" name="state" id="state" placeholder="Enter Your State">
+					</div>
+
+					<div class="split-input" style="margin-top: 10px;">
+						<input type="text" name="postal" id="postal" placeholder="Enter Postal/Zip Code">
+
+						<input type="text" name="country" id="country" placeholder="Enter Your country">
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label for="phone">
+					Phone Number
+				</label>
+
+				<input type="number" name="phone" id="phone" placeholder="Enter Phone Number">
+			</div>
+
+			<div class="form-group">
+				<label for="email">
+					Email Address
+				</label>
+
+				<input type="email" name="email" id="email" placeholder="Enter Email Address">
+
+				<small>
+					Your admission <br> confirmation
+					will be sent via <br> email
+
+				</small>
+			</div>
+
+			<div class="form-group">
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</div>
+</body>
+</html>

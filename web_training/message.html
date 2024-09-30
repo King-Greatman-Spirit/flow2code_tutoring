@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Success Alert</title>
+    <style>
+        /* Alert message box */
+        .alert {
+            padding: 20px;
+            background-color: #4CAF50; /* Green */
+            color: white;
+            margin-bottom: 15px;
+            position: fixed;
+            top: 20px;
+            width:96%;
+            z-index: 1000;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Close button */
+        .closebtn {
+            /* margin-left: 15px; */
+            color: white;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+            float: right;
+        }
+
+        .closebtn:hover {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="alert" id="successAlert">
+        Your form has been successfully sent.
+        <span class="closebtn" onclick="closeAlert()">&times;</span>
+    </div>
+
+    <script>
+        function closeAlert() {
+            var alertBox = document.getElementById('successAlert');
+            alertBox.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

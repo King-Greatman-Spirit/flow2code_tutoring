@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f0fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  position: absolute;
+  top: calc(10px + 5vh);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+
+.form-group small {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.form-group input{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="date"] {
+  padding-right: 30px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #357ae8;
+}
+
+.split-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.split-input > div {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 5px);
+}
+
+.split-input input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

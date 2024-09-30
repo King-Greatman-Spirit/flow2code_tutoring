@@ -1,0 +1,143 @@
+Company Website would be broken down into the following parts:
+
+Stacks Used:
+HTML5, CSS3, BOOTSTRAP5, JAVASCRIPT, PHP(XAMPP) 8.0, MYSQL
+
+1. HTML FOLDERS
+a. Index.html (Home Page View)
+b.. About.html (About Us Page View)
+c.. Services.html (Product/Services Page View)
+d.. Contact.html (Contact Information Page View)
+e.. Header.html (static view positioned at the top)
+f.. Footer.html (static view positioned at the bottom)
+g.. Base.html (Contains all the css, js and bootstrap linkings)
+h.. Alert.html (Message Alert Pop-up)
+I.. Sign_up.html
+j.. Login.html 
+k.. forgot_password.html
+l.. reset_password.html
+
+* Add Scroll to Top
+
+2. CSS FOLDERS
+a. Main.css (main css file)
+b. Bootstrap.css (Bootstrap5 css file)
+
+3. JAVASCRIPT FOLDERS
+a. Main.js (main js file)
+b. Script.js (form validation file)
+b. Bootstrap.js (Bootstrap5 js file)
+
+4. IMAGE FOLDER
+a. LOGO
+b. Pictures (products/service that you render to the public)
+c. Images (Staffs/Team Members, vision, mission)
+
+5. VIDEO FOLDER
+a. video (products/service that you render to the public 15-45 seconds)
+b. Clips (Home Page View between 5-10 seconds)
+
+
+
+HTML FILE DETAILS
+1. Header.html
+a. Logo 
+b. Company Name
+c. Links (home, about, services, contact, Sign_up, login, logout)
+
+2. Footer.html
+a. Logo 
+b. Company Name
+c. Company Addres 
+d. Company Email Address
+e. Company Phone Number
+f. Social Media Handles (FB, X, IG, In, Whatsapp Business)
+
+3. Contact.html 
+a. Header
+b. Contact Form (Using PHP to store Contact Messages and view them in the Admin Panel)
+  i.    Full Name - (input tag)
+  ii.   Email Address - (input tag)
+  iii.  Phone Number - (input tag)
+  iv.   Gender - (Option tag)
+  iv.   How did You hear about us - (Option tag)
+  v.    Subject  (message Title) - (input tag)
+  vi.   Message (Desription) (textarea tag)
+  vii.  Submit Button 
+  viii. Cancel Button
+c. Google Map
+d. Company Address 
+e. Company Email Address
+f. Company Phone Number
+g. Social Media Handles (FB, X, IG, In, Whatsapp Business) - (Font Awesome)
+h. Footer 
+
+4. Sign_up.html
+a. Header
+b. Registration Form (Add font awesome to the form)
+  i.    First Name - (input tag)
+  ii.   Last Name - (input tag)
+  iii.  Email  - (input tag)
+  iv.   Phone Number - (input tag)
+  iv.   Gender - (Option tag)
+  v.    Home Address - (input tag)
+  vi.   Country (option tag)
+  vii.  Password - (input tag) 
+  viii. Confrim Password - (input tag) 
+  ix.   Register Button
+
+5. Login.html 
+a. Header
+b. Sign In Form (Add font awesome to the form)
+  i.    Email/phone number - (input tag)
+  ii.   password - (input tag)
+  iii.  Sign In - (Button)
+
+6. Forgot_password.html
+a. Header
+b. Forgot Password Form
+  i.  Email - (input tag)
+  ii. Submit - (Button)
+
+7. Reset_Password.html
+a. Header
+b. Reset Pasword Form 
+  i.   password - (input tag)
+  ii.  confirm password - (input tag)
+  iii. Submit - (Button)
+
+8. About Us.html
+a. Header
+b. Vision - (write-ups & image)
+c. Mission - (write-ups & image)
+d. Meet Our Team - (write-ups & image)
+d. Footer
+
+9. Services.html
+a. Header
+b. products/service - (write-ups, images & video clips)
+c. Footer
+
+10. Index.html (HOME PAGE)
+a. Header
+b. slides - (3 pics or video clips)
+c. vision/mission
+d. services 
+e. Meet Our Team 
+f. Testimonials From Client 
+g. footer
+
+
+
+
+
+COMPANY NAME - SPIRIT LEADS
+
+
+
+
+
+
+
+
+

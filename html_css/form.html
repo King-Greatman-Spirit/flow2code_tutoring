@@ -1,0 +1,64 @@
+<!DOCTYPE html5> <!-- Declares the document type as HTML5 -->
+<html lang="en"> <!-- Specifies the language of the document as English -->
+<head> <!-- The head section of the HTML document starts here -->
+  <meta charset="UTF-8"> <!-- Sets the character encoding to UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the webpage is responsive on all devices -->
+  <title>musictube.com</title> <!-- Sets the title of the webpage -->
+  <link href="css/style.css" rel="stylesheet"> <!-- Links the external CSS file for styling -->
+</head> <!-- The head section ends here -->
+
+<body class="form"> <!-- The body of the webpage starts here with a class name 'form' -->
+ 
+<div class="container"> <!-- A container div to wrap the form elements -->
+  <form class="form"> <!-- The form element starts here with a class name 'form' -->
+    <h2>Kindly Register With Us</h2> <!-- A heading for the form -->
+
+    <div class="form-control"> <!-- A div to wrap the first name input field -->
+      <label for="firstname">First Name</label> <!-- Label for the first name input field -->
+      <input type="text" placeholder="Enter First Name" id="firstname"> <!-- Text input field for the first name -->
+    </div> <!-- End of first name input wrapper div -->
+
+    <div class="form-control"> <!-- A div to wrap the last name input field -->
+      <label for="lastname">Last Name</label> <!-- Label for the last name input field -->
+      <input type="text" placeholder="Enter Last Name" id="lastname"> <!-- Text input field for the last name -->
+    </div> <!-- End of last name input wrapper div -->
+
+    <div> <!-- A div to wrap the gender radio buttons -->
+      <label for="gender">Gender</label> <!-- Label for the gender radio buttons -->
+      <div> <!-- A div to wrap the male radio button -->
+        <input type="radio" name="gender" id="male" value="male" /> <!-- Radio button for male gender -->
+        <label for="male">Male</label> <!-- Label for the male radio button -->
+      </div> <!-- End of male radio button wrapper div -->
+      
+      <div> <!-- A div to wrap the female radio button -->
+        <input type="radio" name="gender" id="female" value="female" /> <!-- Radio button for female gender -->
+        <label for="female">Female</label> <!-- Label for the female radio button -->
+      </div> <!-- End of female radio button wrapper div -->
+    </div> <!-- End of gender radio buttons wrapper div -->
+
+    <div class="form-control"> <!-- A div to wrap the email input field -->
+      <label for="email">Email Address</label> <!-- Label for the email input field -->
+      <input type="email" placeholder="Enter email address" id="email"> <!-- Email input field -->
+    </div> <!-- End of email input wrapper div -->
+
+    <div class="form-control"> <!-- A div to wrap the phone number input field -->
+      <label for="number">Phone Number</label> <!-- Label for the phone number input field -->
+      <input type="number" placeholder="Enter Phone Number" id="number"> <!-- Number input field for phone number -->
+    </div> <!-- End of phone number input wrapper div -->
+
+    <div class="form-control"> <!-- A div to wrap the date of birth input field -->
+      <label for="dob">Date Of Birth</label> <!-- Label for the date of birth input field -->
+      <input type="date" id="dob"> <!-- Date input field for date of birth -->
+    </div> <!-- End of date of birth input wrapper div -->
+
+    <div class="form-control"> <!-- A div to wrap the password input field -->
+      <label for="password">Password</label> <!-- Label for the password input field -->
+      <input type="password" placeholder="Enter Password" id="password"> <!-- Password input field -->
+    </div> <!-- End of password input wrapper div -->
+
+    <button>Submit</button> <!-- Submit button for the form -->
+  </form> <!-- End of form element -->
+</div> <!-- End of container div -->
+
+</body> <!-- The body of the webpage ends here -->
+</html> <!-- The HTML document ends here -->
